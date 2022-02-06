@@ -1,0 +1,15 @@
+h1 {
+	text-align:center;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+
+.avengers-bg {
+	background-color: #008000;
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 10px;
+}
