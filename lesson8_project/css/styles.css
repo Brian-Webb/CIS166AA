@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+main {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header.header {
+    font-size: 32px;
+    font-weight: bold;
+}
