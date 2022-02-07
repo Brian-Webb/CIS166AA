@@ -39,10 +39,8 @@ For this assignment, you'll be creating a function to create many objects.
 //4. Convert the returned number into a percentage
   const avgHomeworkPercentage = Math.round(avgHomework * 100);
 
-
-
 //5. Output your results to an id called result and assign the id a string that reads like the following:
-  let output = `Approoximately ${avgHomeworkPercentage}% of classes surveyed submit their homework.`;
+  let output = `Approximately ${avgHomeworkPercentage}% of classes surveyed submit their homework.`;
 
   //get the result element
     const resultsDisplay = document.querySelector('#result');
