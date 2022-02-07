@@ -1,5 +1,5 @@
 const playGameButton = document.querySelector('#playGame');
-playGameButton.addEventListener('click', (el) => {
+playGameButton.addEventListener('click', () => {
   playGame();
 });
 
@@ -20,6 +20,7 @@ function playGame(min = 50, max = 75) {
 
   // output results message
     // set the min/max value display content
+    console.log(min, max);
     document.querySelector('#minNumber').textContent = min.toString();
     document.querySelector('#maxNumber').textContent = max.toString();
 
