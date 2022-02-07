@@ -20,7 +20,6 @@ function playGame(min = 50, max = 75) {
 
   // output results message
     // set the min/max value display content
-    console.log(min, max);
     document.querySelector('#minNumber').textContent = min.toString();
     document.querySelector('#maxNumber').textContent = max.toString();
 
