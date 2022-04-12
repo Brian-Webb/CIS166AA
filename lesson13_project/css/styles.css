@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    overflow-y: hidden;
+}
+.text-center {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: column;
+}
+#test-input {
+    flex-direction: row;
+}
+input, button {
+    padding: 10px;
+    font-size: 18px;
+}
+#isValidMsg {
+    color: red;
+    margin: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
