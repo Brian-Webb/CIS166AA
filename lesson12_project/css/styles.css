@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+}
+button {
+    background-color: darkblue;
+    padding: 5px;
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    font-size: 22px;
+}
+.text-center {
+    text-align: center;
+}
