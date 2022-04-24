@@ -169,11 +169,11 @@ function initDictionary() {
   const wordSubmit = document.querySelector('#word-submit');
 
   // setup the event listener for the click event
-  wordSubmit.addEventListener('click', handleSoundsLikeClick);
+  wordSubmit.addEventListener('click', handleDefinitionClick);
 }
 
 // get the similar sounding words and output to the user
-function handleSoundsLikeClick() {
+function handleDefinitionClick() {
   // get the relevant elements
   const wordInput = document.querySelector('#word-input');
   const definitionList = document.querySelector('#definition-list');
